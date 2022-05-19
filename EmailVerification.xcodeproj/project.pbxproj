@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BF4277E12836BDB200E21858 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4277E02836BDB200E21858 /* AppDelegate.swift */; };
-		BF4277E32836BDB200E21858 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4277E22836BDB200E21858 /* SceneDelegate.swift */; };
 		BF4277E52836BDB200E21858 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4277E42836BDB200E21858 /* ViewController.swift */; };
-		BF4277E82836BDB200E21858 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF4277E62836BDB200E21858 /* Main.storyboard */; };
 		BF4277EA2836BDB800E21858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4277E92836BDB800E21858 /* Assets.xcassets */; };
 		BF4277ED2836BDB800E21858 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF4277EB2836BDB800E21858 /* LaunchScreen.storyboard */; };
 		BF4277F82836BDB800E21858 /* EmailVerificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4277F72836BDB800E21858 /* EmailVerificationTests.swift */; };
@@ -38,9 +36,7 @@
 /* Begin PBXFileReference section */
 		BF4277DD2836BDB200E21858 /* EmailVerification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmailVerification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4277E02836BDB200E21858 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BF4277E22836BDB200E21858 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BF4277E42836BDB200E21858 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BF4277E72836BDB200E21858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF4277E92836BDB800E21858 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF4277EC2836BDB800E21858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF4277EE2836BDB800E21858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -100,9 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				BF4277E02836BDB200E21858 /* AppDelegate.swift */,
-				BF4277E22836BDB200E21858 /* SceneDelegate.swift */,
 				BF4277E42836BDB200E21858 /* ViewController.swift */,
-				BF4277E62836BDB200E21858 /* Main.storyboard */,
 				BF4277E92836BDB800E21858 /* Assets.xcassets */,
 				BF4277EB2836BDB800E21858 /* LaunchScreen.storyboard */,
 				BF4277EE2836BDB800E21858 /* Info.plist */,
@@ -233,7 +227,6 @@
 			files = (
 				BF4277ED2836BDB800E21858 /* LaunchScreen.storyboard in Resources */,
 				BF4277EA2836BDB800E21858 /* Assets.xcassets in Resources */,
-				BF4277E82836BDB200E21858 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +253,6 @@
 			files = (
 				BF4277E52836BDB200E21858 /* ViewController.swift in Sources */,
 				BF4277E12836BDB200E21858 /* AppDelegate.swift in Sources */,
-				BF4277E32836BDB200E21858 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +289,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BF4277E62836BDB200E21858 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BF4277E72836BDB200E21858 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BF4277EB2836BDB800E21858 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +426,6 @@
 				INFOPLIST_FILE = EmailVerification/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +453,6 @@
 				INFOPLIST_FILE = EmailVerification/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
